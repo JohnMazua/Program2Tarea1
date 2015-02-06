@@ -37,7 +37,7 @@ public class Ejercicios
 	//devuelve el elemento de "arr" en la posicion ["col"] ["fila"]
 	static int getElemento(int arr[][],int col,int fila)
 	{
-		return arr[fila][col];
+		return arr[col][fila];
 	}
 	
 	//devuelve el atributo "x" de "MiClase"
